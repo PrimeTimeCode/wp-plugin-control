@@ -1,0 +1,17 @@
+{
+  "name": "primetime/wp-plugin-control",
+  "description": "Library for WordPress plugin control",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Evan Mattson",
+      "email": "me@aaemnnost.tv"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "PrimeTime\\WordPress\\PluginControl\\": ["src/"]
+    }
+  }
+}
