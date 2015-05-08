@@ -30,7 +30,7 @@ abstract class TogglePlugins
             $this->message = $message;
         }
 
-        add_filter(static::FILTER_HOOK_ACTIVATION, [$this, 'alter']);
+        add_filter(static::FILTER_HOOK_ACTIVATION, [$this, 'set_activation']);
     }
 
     /**
